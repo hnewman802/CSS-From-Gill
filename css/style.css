@@ -8,18 +8,26 @@
 body {
 	font: normal 1.1em/1.5 sans-serif;
 	color: #222;
-	background-color: #edeff0;
+	background-color: #66ff99;
 }
 
 /* Layout Element Colors
 ================================ */
 
+
+.main-logo {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f2/Volcom_Circle_Stone.jpg");
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
 .main-header       { background-color: #384047; }
-.main-logo a       { background-color: #5fcf80; }
-.main-nav a        { background-color: #3f8abf; }
-.primary-content   { background-color: #caebf6; }
-.secondary-content { background-color: #bfe3d0; }
-.main-footer       { background-color: #b7c0c7; }
+.main-nav a        { background-color: firebrick; }
+.primary-content   { background-color: #3399ff; }
+.secondary-content { background-color: #66ff99; }
+.main-footer       { background-color: darkgreen; }
 
 /* Header, Banner and Footer Layout
 ================================ */
@@ -41,7 +49,7 @@ body {
 	text-decoration: none;
 	text-align: center;
 	padding: 5px 15px;
-	border-radius: 5px;
+	border-radius: 100px;
 }
 .main-footer {
 	text-align: center;
@@ -99,7 +107,7 @@ body {
 	================================ */
 
 	.col {
-		float: left;
+		float: right;
 		width: 30%;
 	}
 	.primary-content {
@@ -112,7 +120,7 @@ body {
 	.main-banner {
 		display: block; /* Unhide from mobile view */
 	}
-
+  
 	/* Float Clearfix
 	================================ */
 
@@ -129,9 +137,10 @@ body {
 		width: 50%;
 		float: left;
 		margin-right: 25px;
-	}
+	} 
 
 }
+
 
 
 
